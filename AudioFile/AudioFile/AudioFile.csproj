@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Accord.Audio" Version="3.8.0" />
+        <PackageReference Include="AlphaTab.Windows" Version="1.4.1" />
+        <PackageReference Include="MonoGame.Extended" Version="4.0.4" />
+        <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.3" />
+        <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.3" />
+        <PackageReference Include="NAudio" Version="2.2.1"/>
+        <PackageReference Include="NAudio.Extras" Version="2.2.1"/>
+        <PackageReference Include="NAudio.WinForms" Version="2.2.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\EnterTheCastle\Extensions\Extensions.csproj" />
+    </ItemGroup>
+
+</Project>
